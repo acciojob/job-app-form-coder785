@@ -21,7 +21,7 @@
 </div>
 	<div>
 		<label for="Gender">Gender*</label>
-		<input type="radio" name="gender" id="male">male
+		<input type="radio" name="gender" id="male" >male
 		<input type="radio" name="gender" id="female">female
 		<input type="radio" name="gender" id="other">other
 		
@@ -29,27 +29,29 @@
 	</div>
 	<div>
 		<label for="Laptop Brands">Laptop Brands</label>
-		<input type="checkbox" id="laptop">Apple
-			<input type="checkbox" id="laptop">Asus
-			<input type="checkbox" id="laptop">HP
+		<select id="laptop">
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
 	</div>
 	<div>
 		<label for="age">Age*</label>
 		
-		<input type="text" id="age">
+		<input type="number" id="age" required>
 	</div>
 	<div>
 		<label for="dob">DOB*</label>
-		<input type="date" id="dob">
+		<input type="date" id="dob" required>
 		
 	</div>
 	<div>
 		<label for="password*">Password*</label>
-		<input type="password" id="password">
+		<input type="password" id="password" required>
 	</div>
 	<div>
 		
-<button id="sumbit">submit button</button>
+<input type="submit" value="submit">
 	</div>
 	
 </form>
