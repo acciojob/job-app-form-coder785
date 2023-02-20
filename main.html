@@ -10,49 +10,44 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<form method="post">
-	<div>
-		<label for="name">Name*</label>
-	<input type="text" id="name" required>
-	</div>
-<div>
-	<label for="email">Email*</label>
-	<input type="email" id="email">
-</div>
-	<div>
-		<label for="Gender">Gender*</label>
-		<input type="radio" name="gender" id="male" >male
-		<input type="radio" name="gender" id="female">female
-		<input type="radio" name="gender" id="other">other
+<form action="yourmail@gmail.com" method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required> 
+		<br>
+	
+		<label for="email">Email</label>
+		 <input type="email" id="email" required> 
+		<br>
+	
+		<label for="gender">Gender</label>
+		<input type="radio" id="gender" name="gender" required> Male
+		<input type="radio" id="gender" name="gender" required> Female
+		<br>
+	
+		<label for="laptop">Laptop Brands</label>
 		
+			<select id="laptop" required>
+				<option name="laptop">Apple</option>
+				<option name="laptop">Asus</option>
+				<option name="laptop">HP</option>
+			</select>
+			
 		
-	</div>
-	<div>
-		<label for="Laptop Brands">Laptop Brands</label>
-		<select id="laptop">
-			<option>Apple</option>
-			<option>Asus</option>
-			<option>HP</option>
-		</select>
-	</div>
-	<div>
-		<label for="age">Age*</label>
-		
-		<input type="number" id="age" required>
-	</div>
-	<div>
-		<label for="dob">DOB*</label>
-		<input type="date" id="dob" required>
-		
-	</div>
-	<div>
-		<label for="password*">Password*</label>
-		<input type="password" id="password" required>
-	</div>
-	<div>
-		
-<input type="submit" value="submit">
-	</div>
+	
+		<label for="age">Age</label>
+		<input type="text" id="age" required> 
+		<br>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob" required> 
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password" required> 
+	<br>
+	<label for="portfolio">Portfolio Link</label>
+	<input type="url" id="portfolio">
+	
+		<button type="submit"> Submit</button>
+	
 	
 </form>
 </body>
